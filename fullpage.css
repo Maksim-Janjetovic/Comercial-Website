@@ -45,6 +45,7 @@ li a:hover:not(.active) {
   background-color: #05bd79;
 }
 .button1{
+  margin-top: .2%;
   margin-left: 3%;
 }
 .button2{
@@ -54,7 +55,7 @@ li a:hover:not(.active) {
   margin-left: 3%;
 }
 #right-button{
-  margin-left: 45%;
+  float: right;
 }
 .title{
   text-shadow: -1px 0 black, 0 1px black, 4px 0 black, 0 -1px black;
@@ -106,9 +107,13 @@ li a:hover:not(.active) {
 .image1{
   margin-top: -1%;
   margin-left: 5%;
-  height: 40%;
+  max-height: 40%;
+  min-width: 20%;
+  max-width: 30%;
 }
 .text1{
+  min-width: 30%;
+  max-width: 50%;
   margin-left: 40%;
   margin-top: -15%;
   font-size: 25px;
@@ -116,11 +121,15 @@ li a:hover:not(.active) {
   font-weight: 200;
 }
 .image2{
-  height: 38%;
-  margin-top: 13%;
+  min-width: 20%;
+  max-width: 30%;
+  max-height: 38%;
+  margin-top: 10%;
   margin-left: 65%;
 }
 .text2{
+  min-width: 20%;
+  max-width: 50%;
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 200;
