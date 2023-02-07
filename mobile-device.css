@@ -10,9 +10,24 @@ li a {
     text-align: center;
     padding: 14px 46px;
     text-decoration: none;
-  }
-  #right-button{
-    float: none;
-    width: 50%;
-    margin-left: 42%;
-  }
+}
+.title2{
+    font-size: 35px;
+    margin-left: 7%;
+}
+#main-button{
+    font-size: 25px;
+}
+.main-button1{
+    margin-left: 20px;
+}
+.active{
+    display: none;
+}
+.button1{
+    margin-left: 20px;
+    margin-top: 6px;
+}
+.button3{
+    margin-left: 25%;
+}
