@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fullpage.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile-device.css" />
     <link rel="icon" href="https://imgs.search.brave.com/HIyrP4T0JLo8041o-2PkGR4YuoXYj8QqQRuqJNGnClc/rs:fit:728:724:1/g:ce/aHR0cHM6Ly9jZG4u/aW1nYmluLmNvbS8x/Ni8yMC8xMy9pbWdi/aW4tY29tcHV0ZXIt/aWNvbnMtcmVkZGl0/LXBvcnRhYmxlLW5l/dHdvcmstZ3JhcGhp/Y3MtcGVwZS10aGUt/ZnJvZy1wZXBlLWZh/Y2UtTks0SkVRaHVt/VUIwWmlaOFpkY1RC/ekNiTC5qcGc">
     <script src="program.js"></script>
     <title>Martin</title>
@@ -13,14 +14,14 @@
     <section class="section1">
         <ul>
             <li class="button1"><a href="#about">About</a></li>
-            <li class="button2"><a href="#news">Portfolio</a></li>
+            <li class="button2"><a href="#portfolio">Portfolio</a></li>
             <li class="button3"><a href="#contact">Contact</a></li>
-            <li id="right-button"><a class="active" href="#about">Home</a></li>
+            <li id="right-button"><a class="active" href="#">Home</a></li>
           </ul>
           <h2 class="title" align="center">Need a Website? </h2>
           <h1 class="title2">We got you covered</h1>
-          <button class="main-button1" id="main-button" href="#contact">Contact</button>
-          <button class="main-button2" id="main-button" href="#about">About</button>
+          <a href="#contact"><button class="main-button1" id="main-button" href="#contact" align="center">Contact</button></a>
+          <a href="#about"><button class="main-button2" id="main-button" href="#about" align="center">About</button></a>
     </section>
     <section class="about" id="about">
         <h1 class="part2-title">Who are we?</h1>
@@ -34,7 +35,11 @@
         for you to advertise your buisness and stand out from the competition. <br>
         We will respond to you within 48 hours and deliver your product as fast as we can.</p>
     </section>
-    <div class="container">
+    <div class="portfolio" id="portfolio">
+        <h1 align="center" class="portfolio-title1">Whoops, looks like this part is under construction!</h1>
+        <h2 align="center" class="portfolio-title2">Coming soon</h2>
+    </div>
+    <div class="container" id="contact">
         <form onsubmit="sendEmail(); reset(); return false">
             <h3>CONTACT US</h3>
             <input type="text" placeholder="Your name" id="name" required>
