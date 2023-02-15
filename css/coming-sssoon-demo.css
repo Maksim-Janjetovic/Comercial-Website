@@ -114,7 +114,7 @@
 }
 .footer{
     background-color: #DDDDDD;
-    background-image: url('../images/default.jpg');
+    background-image: url('default.jpg');
     background-attachment: fixed;
     position: relative !important;
     bottom: 0;
